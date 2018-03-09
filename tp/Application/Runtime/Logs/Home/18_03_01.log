@@ -1,0 +1,1260 @@
+[ 2018-03-01T22:11:23+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016089s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020942s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021024s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0022s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000108s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000179s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.150549s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.150638s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012398s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008938s ]
+
+[ 2018-03-01T22:11:45+08:00 ] ::1 /index.php/Home/Home/index/id/55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000560s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '55' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '55' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000166s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013062s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000434s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000567s ]
+
+[ 2018-03-01T22:11:45+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018559s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018653s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000535s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000610s ]
+
+[ 2018-03-01T22:11:50+08:00 ] ::1 /index.php/Home/Home/index/id/53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000051s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000333s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000474s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0028s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0015s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '53' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '53' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000152s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011380s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011466s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000615s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000736s ]
+
+[ 2018-03-01T22:11:50+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001089s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0028s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '' LIMIT 1   [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000222s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000508s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016999s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000555s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000759s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000881s ]
+
+[ 2018-03-01T22:11:50+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000615s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014201s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014310s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000656s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2018-03-01T22:11:52+08:00 ] ::1 /index.php/Home/Home/index/id/52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '52' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '52' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000078s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000151s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012239s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012309s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000518s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000596s ]
+
+[ 2018-03-01T22:11:52+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000029s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000667s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000111s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000264s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014382s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014483s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000797s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000971s ]
+
+[ 2018-03-01T22:11:53+08:00 ] ::1 /index.php/Home/Home/index/id/53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000453s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '53' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '53' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000211s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000271s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000758s ]
+
+[ 2018-03-01T22:11:53+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000572s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000241s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012561s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012668s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000406s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000549s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000648s ]
+
+[ 2018-03-01T22:11:53+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000428s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0017s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000229s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013607s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001066s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001247s ]
+
+[ 2018-03-01T22:12:02+08:00 ] ::1 /index.php/Home/Home/index/id/52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000495s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000578s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '52' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '52' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000193s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010303s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000357s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000416s ]
+
+[ 2018-03-01T22:12:02+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000550s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000668s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000154s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000279s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012916s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013025s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000430s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000570s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000676s ]
+
+[ 2018-03-01T22:12:04+08:00 ] ::1 /index.php/Home/Home/index/id/55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000422s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001086s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001237s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0016s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0017s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '55' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '55' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010026s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010130s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000871s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000623s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2018-03-01T22:12:04+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000512s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000597s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0019s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0009s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0018s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000081s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000160s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010179s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000318s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000397s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-03-01T22:12:05+08:00 ] ::1 /index.php/Home/Home/index/id/53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '53' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '53' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009246s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000607s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000704s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000875s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001021s ]
+
+[ 2018-03-01T22:12:06+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000505s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000611s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '' LIMIT 1   [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000099s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000216s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012062s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012269s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000612s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000713s ]
+
+[ 2018-03-01T22:12:06+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000564s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000730s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000121s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014365s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000521s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2018-03-01T22:12:06+08:00 ] ::1 /index.php/Home/Home/index/id/52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000839s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0013s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '52' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '52' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000092s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009912s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010049s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2018-03-01T22:12:06+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000431s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000584s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000295s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013784s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013914s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000747s ]
+
+[ 2018-03-01T22:12:07+08:00 ] ::1 /index.php/Home/Home/index/id/53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '53' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '53' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000291s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011418s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000358s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000619s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000791s ]
+
+[ 2018-03-01T22:12:07+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000415s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0012s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000230s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016973s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017097s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000504s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000820s ]
+
+[ 2018-03-01T22:12:07+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000442s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000360s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000430s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000244s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014231s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000766s ]
+
+[ 2018-03-01T22:12:07+08:00 ] ::1 /index.php/Home/Home/index/id/55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000185s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000929s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000761s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '55' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '55' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000218s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009169s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000199s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000391s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000453s ]
+
+[ 2018-03-01T22:12:08+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000493s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000134s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000270s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014248s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014359s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000476s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001803s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001919s ]
+
+[ 2018-03-01T22:12:08+08:00 ] ::1 /index.php/Home/Home/index/id/53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000299s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '53' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '53' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000152s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008913s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000237s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000716s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000868s ]
+
+[ 2018-03-01T22:12:08+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000635s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000757s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0013s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000110s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000232s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022777s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022886s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000585s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000700s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000814s ]
+
+[ 2018-03-01T22:12:08+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0011s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000233s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015127s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015237s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000561s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2018-03-01T22:12:09+08:00 ] ::1 /index.php/Home/Home/index/id/53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000518s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000886s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001013s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0005s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '53' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '53' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000076s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000165s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009643s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009729s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000721s ]
+
+[ 2018-03-01T22:12:09+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000342s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000450s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000143s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000352s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013923s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014017s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000436s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000533s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000631s ]
+
+[ 2018-03-01T22:12:09+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000601s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000162s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000312s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015225s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015346s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000515s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000777s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000938s ]
+
+[ 2018-03-01T22:12:10+08:00 ] ::1 /index.php/Home/Home/index/id/55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000360s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000392s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000472s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '55' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '55' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000294s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009940s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000332s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000456s ]
+
+[ 2018-03-01T22:12:10+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000877s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000588s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0007s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0023s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000323s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013982s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014070s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000363s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000470s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000540s ]
+
+[ 2018-03-01T22:12:11+08:00 ] ::1 /index.php/Home/Home/index/id/53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000429s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000679s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '53' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '53' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009480s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000928s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001086s ]
+
+[ 2018-03-01T22:12:11+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000720s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0012s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0011s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000104s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012910s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012993s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000208s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000373s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000436s ]
+
+[ 2018-03-01T22:12:11+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000860s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001071s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000116s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000247s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013076s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000464s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000589s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2018-03-01T22:12:11+08:00 ] ::1 /index.php/Home/Home/index/id/52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000969s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001138s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0008s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '52' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '52' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000141s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000326s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013023s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013111s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000393s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000431s ]
+
+[ 2018-03-01T22:12:11+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000674s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000273s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012192s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000281s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000377s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000438s ]
+
+[ 2018-03-01T22:12:12+08:00 ] ::1 /index.php/Home/Home/index/id/55
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000349s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000511s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '55' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '55' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000080s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012123s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000217s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000384s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000461s ]
+
+[ 2018-03-01T22:12:12+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000135s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000275s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000437s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000579s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000730s ]
+
+[ 2018-03-01T22:12:14+08:00 ] ::1 /index.php/Home/Home/index/id/52
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0016s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '52' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '52' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000085s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000168s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009931s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010015s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000425s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001044s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001166s ]
+
+[ 2018-03-01T22:12:14+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000499s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000667s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000782s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0009s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0009s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000105s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000217s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014163s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000676s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000799s ]
+
+[ 2018-03-01T22:12:17+08:00 ] ::1 /index.php/Home/Home/index/id/53
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000380s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000451s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0006s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '53' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '53' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000077s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000531s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000708s ]
+
+[ 2018-03-01T22:12:17+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = '' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = '' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000113s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000234s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018319s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000701s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000668s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000792s ]
+
+[ 2018-03-01T22:12:17+08:00 ] ::1 /index.php/Home/Home/index/id/images/nav.swf
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000045s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000981s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000742s ]
+SQL: SHOW COLUMNS FROM `tp_article` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_article` ORDER BY id desc  [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `tp_link` [ RunTime:0.0008s ]
+SQL: SELECT * FROM `tp_link`  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `tp_essay` [ RunTime:0.0007s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `tp_essay` WHERE `cateid` = 'images' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `tp_essay` WHERE `cateid` = 'images' ORDER BY time desc LIMIT 0,5   [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000107s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000222s ]
+NOTIC: [8] Undefined index: id D:\wamp64\www\tp\Application\Runtime\Cache\Home\d7afc08e88068689bd04637b9b480409.php 第 49 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012515s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012627s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000614s ]
+

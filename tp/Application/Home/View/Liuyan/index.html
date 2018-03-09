@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>有一种思念，是淡淡的幸福-杨青个人博客网站</title>
+<meta name="keywords" content="杨青个人博客网站,杨青个人网站，杨青博客,个人博客,个人网站" />
+<meta name="description" content="杨青个人原创博客，提供个人博客，个人网站源码分享" />
+<link href="__PUBLIC__/css/index.css" rel="stylesheet">
+<link href='http://fonts.googleapis.com/css?family=Arizonia' rel='stylesheet' type='text/css'>
+
+</head>
+<body>
+<header>
+  <h1><a href="/">Missing </a></h1>
+  <p>有一种思念，是淡淡的幸福；有一种幸福，是常常的牵挂；有一种牵挂，是远远地欣赏.......</p>
+</header>
+
+<include file="Public/header" />
+<article>
+    <div class="pho">
+       <ul>
+         <!-- <li><a href="__PUBLIC__/#pic01"><img src="__PUBLIC__/images/01.jpg"></a></li>-->
+          <li><a href="__PUBLIC__/#pic02"><img src="__PUBLIC__/images/02.jpg"></a></li>
+          <!--<li><a href="__PUBLIC__/#pic03"><img src="__PUBLIC__/images/03.jpg"></a></li>-->
+       </ul>    
+    </div>
+    <div class="blank"></div>
+   
+    <div class="blog">
+      <h2>{$fo.time|date="Y-m-d H:i:s",###}</h2> 
+
+
+      <ul>
+        <img src="__ROOT__/{$fo.pic}"><h3 class="title"><a href="#">{$fo.title}</a></h3>
+        
+        <p>5) 愈害怕失去的人，愈容易失去。愈想得到，就愈要放手。 放手是很难的，但是别无选择。 世上有很多东西是可以挽回的，比如良知，比如体重。 但不可挽回的东西更多，譬如旧梦，譬如岁月，譬如对一个人的感觉。 放弃一个很爱你的人并不痛苦，放弃一个你很爱的人才是痛苦。</p>
+        <p>6) 假装坚强，是不想让人看到眼泪；假装开心，是不想让人知道寂寞；假装快乐，是不想让人看出孤独；假装高兴，是不想让人看见伤口；假装甜蜜，是不想让人看见泪水；假装轻松，是不想让人发觉心酸；假装幸福，是不想让人看见疤痕；假装成熟，是不想让人看出无知；假装聪明，是不想让人看到失败。</p>
+      </ul>
+    </div>
+ 
+  
+</article>
+<!--PC版-->
+<div id="SOHUCS" ></div>
+<script charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/changyan.js" ></script>
+<script type="text/javascript">
+window.changyan.api.config({
+appid: 'cytriW2By',
+conf: '5a289ec27532fa720f7501bc09dda28b'
+});
+</script>
+<include file="Public/footer" />
+</body>
+</html>
